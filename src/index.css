@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+}
+
+body {
+  font-family: JosefinSans;
+}
+
+@theme {
+  --animate-fade-up: fadeIn 1s ease forwards;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      max-height: 0px;
+    }
+    100% {
+      opacity: 100;
+      max-height: 500px;
+    }
+  }
+}
+
+@utility bg-desktop-dark {
+  background-image: URL("/images/bg-desktop-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@utility bg-desktop-light {
+  background-image: URL("/images/bg-desktop-light.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@utility bg-mobile-dark {
+  background-image: URL("/images/bg-mobile-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@utility bg-mobile-light {
+  background-image: URL("/images/bg-mobile-light.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@utility gradient-check {
+  background: #a07ce8;
+  background: linear-gradient(
+    349deg,
+    rgba(160, 124, 232, 1) 0%,
+    rgba(158, 201, 235, 1) 100%
+  );
+}
