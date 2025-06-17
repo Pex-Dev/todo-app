@@ -48,9 +48,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Todo App Solution](https://www.frontendmentor.io/solutions/todo-app-solution-wKVAJVSAFR)
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://todo-app-pex-dev.netlify.app/)
 
 ## My process
 
